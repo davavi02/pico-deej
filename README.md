@@ -1,4 +1,20 @@
-# deej
+# pico-deej
+This verison of the project uses a RP2040 Zero and a 74HC4051D multiplexer to get 5 sliders at a time.
+
+## BOM
+| Part | Qty. | Link |
+|------|------|------|
+| RP2040 Zero | 1 | [Amazon](https://a.co/d/6Iz0y2I)
+| Nexperia 74HC4051D | 1 | [Mouser](https://www.mouser.com/ProductDetail/771-74HC4051D-T) |
+| TT Electronics PS45M-0MC1BR500K | 5 | [Mouser](https://www.mouser.com/ProductDetail/858-PS45M-0MC1BR500K) |
+
+## CAD/PCB
+STL files for a case are included and source files are also included for modifications in FreeCAD. First attempt at creating a PCB is also included, designed in KiCAD 
+
+## Firmware
+The MCU code is also included which was modified to handle a multiplexer. The code is using the sample code from [SparkFun's multiplexer hookup guide](https://learn.sparkfun.com/tutorials/multiplexer-breakout-hookup-guide/all).
+
+# Original Readme
 
 deej is an **open-source hardware volume mixer** for Windows and Linux PCs. It lets you use real-life sliders (like a DJ!) to **seamlessly control the volumes of different apps** (such as your music player, the game you're playing and your voice chat session) without having to stop what you're doing.
 
